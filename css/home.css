@@ -1,0 +1,262 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+
+}
+.nav{
+    width: 95%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px 0px 50px;
+    
+}
+
+
+.logo{
+    display: flex;
+    
+}
+
+.lets{
+    color: #51B495;
+    font-family: "Faustina";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+.cook{
+    color: #165F35;
+    font-family: "Faustina";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.buttons{
+    display: flex;
+}
+
+#getstart{
+    margin-right: 40px;
+}
+#signup{
+    margin-right: 40px;
+}
+.button{
+    width: 166px;
+    height: 48px;
+    border-radius: 15px;
+    background-color: #0EAE1F;
+    border: none;
+    color: white;
+    font-family: "Mulish";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login{
+    font-family: "Mulish";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #0EAE1F;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 13px;
+}
+
+.welcome_card{
+    margin-top: 5px;
+    background-color: #F2FFF2;
+    width: 100%;
+    height: 500px;
+    padding-left: 80px;
+    display: flex;
+    position: relative;
+    
+}
+
+.left_section{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+}
+
+.title{
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.welcome_parg{
+    color: #999F9A;
+    font-family: "Mulish";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#explore{
+    background-color: #DFFDE3;
+    border: 1px solid #0EAE1F;
+    color: #0EAE1F;
+}
+
+.big_ring{
+    position: absolute;
+    z-index: 0;
+    left: 1300px;
+}
+
+.small_ring{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 100;
+    left: 1250px;
+    top: 230px;
+}
+
+.Popular_section{
+    margin-top: 140px;
+    height: 700px;
+}
+
+.popular_title{
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.empty{
+    text-align: center;
+    font-family: "Mulish";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 70px;
+    color: #165F35;
+    margin-top: 50px;
+}
+
+.newest_section{
+    height: 700px;
+}
+
+.fotter{
+    width: 100%;
+    height: 400px;
+    background-color: #EAFFED;
+    padding-top: 30px;
+    
+}
+.footer_title{
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.line{
+    border: 1px solid hsla(0, 1%, 32%, 0.1);
+}
+
+.bottom_footer{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+.friends{
+    font-family: "Mulish";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #939393;
+}
+.develop_title{
+    font-family: "Mulish";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #165F35;
+}
+
+.dev_profile{
+    display: flex;
+    gap: 10px;
+}
+
+.dev_name{
+    font-family: "Mulish";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #939393;
+    margin-top: -2px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+
+.dev_name:hover{
+    color: #165F35;
+}
+
+
+.search_icon{
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+
+}
+
+.search{
+    border-radius: 8px;
+    border: 1px solid #9BA69C;
+    height: 25px;
+    width: 200px;
+    padding-left: 20px;
+    color: hsl(235, 18%, 26% ); 
+    margin-top: -5px;
+}
+
+.search:focus{
+    outline: 1px solid #165F35;
+}
+
+
+.profile_image{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0EAE1F;
+    border-radius: 40px;
+    margin-top: -5px;
+    cursor: pointer;
+    background-image: url(../images/07fb3452c4640d881a16d08c2e314f3e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
